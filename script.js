@@ -12,17 +12,17 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
+  "You have no new messages:).",
+  "The Spire has opened once again.",
   "Now discoverable as '[—]'.",
   "Connection unsuccessful.",
-  "Your connection is unstable.",
+  "You are unstable.",
   "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "Get a job.",
+  "iocane powder consumed.",
 ];
 
-const buttonRetry = document.getElementById("button-network");
+const buttonTryAgain = document.getElementById("button-network");
 
 // Function to handle the button click and update the text
 function changeResultsError() {
@@ -47,8 +47,8 @@ function dropdownFun() {
     addText("🥱👽🐙🪼🌘");
   } else if (x === "joyful") {
     addText("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addText("🌦️🌨️🫧🌫️☔⚡🥶");
+  } else if (x === "kooky") {
+    addText("🔥🔫🔥🤪🤘");
   } else if (x === "hangry") {
     addText("🍟🥨🌮🥗🍱");
   }
@@ -60,8 +60,7 @@ function dropdownFun() {
 const fiveSyllables = [
   "want to be my boy",
   "I love pokemon",
-  "pizza is a dream",
-  "hand over the cheese",
+  "go lucario",
   "parmesean is life",
   "i am so hungry",
   "where did odie go",
@@ -156,15 +155,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "defective machines, ironclad men, lost souls, displaced watchers, prideful reagents, silent stalkers".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "wander,climb, cross, kneel to pray in, resist, fight, sneak across, hide in".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "pits of hell,towering spires, vast wastelands,wildernesses unknown,putrid docks, arid deserts, halls of madness, valleys of ash and bone".split(
       ","
     );
 // set up the counter

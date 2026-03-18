@@ -159,7 +159,7 @@ const subjects =
       ","
     ),
   verbs =
-    "wander,climb, cross, kneel to pray in, resist, fight, sneak across, hide in, rest,".split(
+    "wander,climb, cross, kneel to pray in, resist the, fight among, sneak across, hide in, rest in,".split(
       ","
     ),
   objects =

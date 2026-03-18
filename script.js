@@ -155,15 +155,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "defective machines, ironclad men, lost souls, displaced watchers, prideful reagents, silent stalkers".split(
+    "defective machines, ironclad men, lost souls, displaced watchers, prideful regents, silent stalkers".split(
       ","
     ),
   verbs =
-    "wander,climb, cross, kneel to pray in, resist, fight, sneak across, hide in".split(
+    "wander,climb, cross, kneel to pray in, resist, fight, sneak across, hide in, rest,".split(
       ","
     ),
   objects =
-    "pits of hell,towering spires, vast wastelands,wildernesses unknown,putrid docks, arid deserts, halls of madness, valleys of ash and bone".split(
+    "pits of hell,towering spires, vast wastelands,wilderness unknown,putrid docks, arid deserts, halls of madness, valleys of ash and bone, vibrant overgrowth".split(
       ","
     );
 // set up the counter

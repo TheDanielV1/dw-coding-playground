@@ -12,14 +12,14 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "You have no new messages:).",
-  "The Spire has opened once again.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "You are unstable.",
-  "Out of range.",
-  "Get a job.",
-  "iocane powder consumed.",
+  "You have fallen into the void.",
+  "pride is your downfall.",
+  "out of energy",
+  "your body is broken",
+  "the machine has taken over.",
+  "the sickness consumes you.",
+  "the fires turn you to ash.",
+  "despair befalls you.",
 ];
 
 const buttonTryAgain = document.getElementById("button-network");

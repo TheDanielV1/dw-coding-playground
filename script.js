@@ -12,14 +12,14 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "You have fallen into the void.",
-  "pride is your downfall.",
+  "You have fallen into the void",
+  "pride is your downfall",
   "out of energy",
   "your body is broken",
-  "the machine has taken over.",
-  "the sickness consumes you.",
-  "the fires turn you to ash.",
-  "despair befalls you.",
+  "the machine has taken over",
+  "the sickness consumes you",
+  "the fires turn you to ash",
+  "despair befalls you",
 ];
 
 const buttonTryAgain = document.getElementById("button-network");
@@ -49,8 +49,8 @@ function dropdownFun() {
     addText("😀😍😸👾👻🕺");
   } else if (x === "kooky") {
     addText("🔥🔫🔥🤪🤘");
-  } else if (x === "hangry") {
-    addText("🍟🥨🌮🥗🍱");
+  } else if (x === "angry") {
+    addText("😤😡✊🗯️💣");
   }
 }
 //end of dropdown function
